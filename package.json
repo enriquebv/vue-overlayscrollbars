@@ -1,0 +1,19 @@
+{
+  "name": "vue-overlayscrollbars",
+  "version": "1.0.0",
+  "main": "dist/vue-overlayscrollbars.umd.min.js",
+  "repository": "https://github.com/enriquebv/vue-overlayscrollbars.git",
+  "author": "Enrique Bernabeu <ebvcontacto@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "vue-cli-service build --mode production --entry ./src/index.js --dest ./dist/ --target lib"
+  },
+  "dependencies": {
+    "overlayscrollbars": "^1.9.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^3.9.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
