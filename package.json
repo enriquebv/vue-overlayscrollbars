@@ -7,10 +7,14 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "vue-cli-service build --mode production --entry ./src/index.js --dest ./dist/ --target lib"
+    "build": "vue-cli-service build --mode production --entry ./src/index.js --dest ./dist/ --target lib",
+    "demo": "vue-cli-service serve"
   },
   "dependencies": {
-    "overlayscrollbars": "^1.9.1"
+    "node-sass": "^4.12.0",
+    "overlayscrollbars": "^1.9.1",
+    "sass-loader": "^8.0.0",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-service": "^3.9.3",
