@@ -6565,6 +6565,13 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
+/***/ "e879":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "f6fd":
 /***/ (function(module, exports) {
 
@@ -6635,12 +6642,17 @@ if (typeof window !== 'undefined') {
 var OverlayScrollbars = __webpack_require__("dbe5");
 var OverlayScrollbars_default = /*#__PURE__*/__webpack_require__.n(OverlayScrollbars);
 
+// EXTERNAL MODULE: ./node_modules/overlayscrollbars/css/OverlayScrollbars.min.css
+var OverlayScrollbars_min = __webpack_require__("e879");
+
 // CONCATENATED MODULE: ./src/index.js
+
+
 
 
 /* harmony default export */ var src = ({
   install(Vue) {
-    Vue.directive("perfect-scrollbar", {
+    Vue.directive("scrollbar", {
       bind: (el, { value: options }) => {
         const cloned = !options ? {} : JSON.parse(JSON.stringify(options));
         el._os = OverlayScrollbars_default()(el, cloned);

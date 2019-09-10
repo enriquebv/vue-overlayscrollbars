@@ -1,5 +1,7 @@
 import OverlayScrollbars from "overlayscrollbars";
 
+import "overlayscrollbars/css/OverlayScrollbars.min.css";
+
 export default {
   install(Vue) {
     Vue.directive("scrollbar", {
