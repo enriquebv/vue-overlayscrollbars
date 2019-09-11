@@ -4,9 +4,9 @@ Vue directive to override the native scrollbar, with OverlayScrollbars.
 
 ### To do
 
-[x] Vue directive
-[x] Options support (with reactive support).
-[ ] Fancy demo.
+- [x] Vue directive
+- [x] Options support (with reactive support).
+- [ ] Fancy demo.
 
 ## How to use
 
